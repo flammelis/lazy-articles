@@ -26,10 +26,14 @@ Generate an article from tracked events.
    - Language: Russian (RU) or English (EN)
    - TOV style: technical, blog, corporate, viral, or custom (if trained)
    - Technical depth: beginner-friendly or expert-level
-2. Generate draft using storytelling techniques
-3. Save to `.lazy-articles/drafts/` with timestamp
-4. Present draft for review
-5. Ask if user wants adjustments before final version
+2. **Ask for personal input:**
+   - "What emotions did you feel during key moments? Any frustrations, excitement, relief?"
+   - "Any personal details or context you want included that I might have missed?"
+   - "Any specific moments you want highlighted or downplayed?"
+3. Generate draft using storytelling techniques
+4. Save to `.lazy-articles/drafts/` with timestamp
+5. Present draft for review
+6. Ask if user wants adjustments before final version
 
 ### `/article train`
 Train a custom TOV on user's texts.
@@ -78,14 +82,29 @@ Add events to `.lazy-articles/tracking.json` as array of objects:
 
 ## Article Generation Guidelines
 
-### Storytelling Techniques
+### Storytelling Structures
 Choose the best fit for the project:
 
-1. **Hero's Journey** - Problem → Challenges → Mentor (Claude) → Transformation → Victory
-2. **In Medias Res** - Start with the breakthrough, then flashback to how we got there
-3. **Problem-Solution Loop** - Multiple mini-arcs of challenge → attempt → resolution
-4. **Before/After Contrast** - Paint the pain, then the relief
-5. **Behind the Scenes** - Raw, authentic "here's what really happened"
+1. **Three-Act Structure** - Set up → Confrontation → Resolution
+2. **Freytag's Pyramid** - Exposition → Rising action → Climax → Falling action → Dénouement
+3. **Hero's Journey** - Protagonist goes on adventure → Wins victory → Returns transformed
+4. **In Medias Res** - Start in the middle of action, then fill in context
+5. **Fichtean Curve** - Series of crises immediately following introduction
+6. **Story Circle** - Character arc driven by desire and change
+7. **Problem-Solution Loop** - Multiple mini-arcs of challenge → attempt → resolution
+8. **Before/After Contrast** - Paint the pain, then the relief
+9. **Behind the Scenes** - Raw, authentic "here's what really happened"
+
+### Narrative Devices
+Enhance the story with:
+
+- **Flashback/Flashforward** - Alter time sequence for context or foreshadowing
+- **Foreshadowing** - Drop subtle hints about what's coming
+- **Frame Story** - Story within a story (narrator telling about another experience)
+- **Show, Don't Tell** - Use descriptive language and actions over exposition
+- **Stream of Consciousness** - Represent unfiltered, continuous thought process
+- **Perspective Shifts** - Move between first/second/third person viewpoints
+- **Pattern Interrupts** - Break expectations to grab attention
 
 ### TOV Presets
 
