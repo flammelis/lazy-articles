@@ -48,6 +48,19 @@ View or modify current configuration.
 
 ---
 
+## On Session Start (Auto-Resume)
+
+**IMPORTANT**: At the start of EVERY new Claude Code session in this project:
+
+1. Check if `.lazy-articles/config.json` exists
+2. If `trackingActive: true`, automatically resume tracking
+3. Silently continue logging events to `tracking.json`
+4. No need for user to run `/article resume` - it happens automatically
+
+This ensures tracking persists across multiple Claude Code sessions.
+
+---
+
 ## Tracking Behavior
 
 When tracking is active, continuously observe and log:
