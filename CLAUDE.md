@@ -24,7 +24,7 @@ Resume tracking after pause.
 Generate an article from tracked events.
 1. Ask user for:
    - Language: Russian (RU) or English (EN)
-   - TOV style: technical, blog, corporate, viral, or custom (if trained)
+   - TOV style: technical, blog, corporate, viral, flammelis, or custom (if trained)
    - Technical depth: beginner-friendly or expert-level
 2. **Ask for personal input:**
    - "What emotions did you feel during key moments? Any frustrations, excitement, relief?"
@@ -132,6 +132,18 @@ Enhance the story with:
 - Unexpected twists
 - Shareable insights
 - Pattern interrupts
+
+**Flammelis Style** (Russian viral tech storytelling)
+- First-person confessional, "talking to a friend" voice
+- Self-deprecating humor, ironic but not bitter
+- Creative chapter names and character introductions with emojis
+- Wordplay/puns in titles, anti-success framing ("Как НЕ стать...")
+- Foreshadowing device ("Спойлер: легче не было")
+- Russian internet slang (рыночек, факап, хайп, юзкейс, штош)
+- Pop culture references and creative metaphors
+- Behind-the-scenes authenticity, show the messy middle
+- P.S. at the end with numbers/insights
+- Concrete results and honest emotions throughout
 
 ### Language Rules
 - If user selects Russian: Write article in Russian

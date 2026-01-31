@@ -7,5 +7,74 @@
   "trackingActive": false,
   "projectName": "",
   "createdAt": null,
-  "lastUpdated": null
+  "lastUpdated": null,
+  "tovPresets": {
+    "flammelis": {
+      "name": "Flammelis Style",
+      "language": "ru",
+      "description": "Viral Russian tech storytelling with self-deprecating humor and emotional authenticity",
+      "hooks": {
+        "titlePatterns": [
+          "Wordplay and puns in titles",
+          "Anti-success framing ('Как НЕ стать...')",
+          "Promise drama/entertainment upfront",
+          "Provocative questions"
+        ],
+        "openingTechniques": [
+          "Start with relatable pain point",
+          "Foreshadow the twist ('Спойлер: легче не было')",
+          "Set up dramatic irony"
+        ]
+      },
+      "structure": {
+        "elements": [
+          "Creative chapter names ('Глава 1. Радость незнания')",
+          "Character introductions with emojis",
+          "Subchapters for dramatic beats",
+          "P.S. at the end with numbers/insights",
+          "Image captions as punchlines"
+        ],
+        "pacing": "Build tension → release with humor → build again"
+      },
+      "tone": {
+        "voice": "First-person confessional, talking to a friend",
+        "humor": "Self-deprecating, ironic, sarcastic but not bitter",
+        "emotion": "Honest about frustration, excitement, disappointment",
+        "attitude": "Behind-the-scenes authenticity, 'here's what really happened'"
+      },
+      "vocabulary": {
+        "slang": ["рыночек", "факап", "хайп", "юзкейс", "крео", "офигенез", "штош"],
+        "keepInEnglish": ["tech terms", "product names", "code", "commands"],
+        "devices": [
+          "Pop culture references (music, movies, memes)",
+          "Creative metaphors from everyday life",
+          "Strategic emoji (not excessive)",
+          "Parenthetical asides for inner thoughts"
+        ]
+      },
+      "storytelling": {
+        "techniques": [
+          "Character arcs for real people (give them names/personas)",
+          "Concrete numbers and results",
+          "Show the messy middle, not just success",
+          "End with actionable insight or twist"
+        ],
+        "avoidPatterns": [
+          "Generic inspirational conclusions",
+          "Humble bragging",
+          "Over-explaining obvious things",
+          "Dry corporate language"
+        ]
+      },
+      "examplePhrases": [
+        "Спойлер: легче не было",
+        "Штош",
+        "В моей голове пробуждаются древние демоны",
+        "Радостно потирая ручки",
+        "Занавес",
+        "Ну и, отбросим лукавство",
+        "Преисполненная решимости"
+      ]
+    }
+  }
 }
